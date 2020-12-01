@@ -1,10 +1,14 @@
-import './App.css';
-import Construction from "./Components/construction"
+import "./App.css";
+import Construction from "./Components/construction";
+import Header from "./Components/header";
+import Navbar from "./Components/navbar";
 
 function App() {
   return (
     <div className="App">
-    <Construction />
+      <Header />
+      <Navbar />
+      <Construction />
     </div>
   );
 }
